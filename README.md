@@ -4,7 +4,7 @@ Lissajous
 Curvas de Lissajous
 
 
-     Uso: http://svl.lsd.org.br:8080/appsweb/lissaj/main.html?a=<a₀>,<a₁>&d=<δ>&i=<incr>
+     Uso: http://arkanon.github.io/Lissajous/?a=<a₀>,<a₁>&d=<δ>&i=<incr>
 
      TESTES
 
