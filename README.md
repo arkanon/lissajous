@@ -1,1 +1,1 @@
-https://github.com/arkanon/Lissajous/README.md
+https://github.com/arkanon/Lissajous/blob/master/README.md
