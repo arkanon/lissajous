@@ -21,4 +21,5 @@ Curvas de Lissajous
      x = A₀·sen( a₀·t + δ )
      y = A₁·sen( a₁·t     )
 
+     http://www.openprocessing.org/sketch/39876
      http://en.wikipedia.org/wiki/Spirograph
