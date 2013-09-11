@@ -16,7 +16,7 @@ Curvas de Lissajous
         a=1,4              a=2,4 infinito     a=3,4             a=4,4 circulo      a=5,4
         a=1,5              a=2,5              a=3,5             a=4,5              a=5,5 circulo
 
-     [oi](http://en.wikipedia.org/wiki/Lissajous_curve)
+     [oi](http://en.wikipedia.org/wiki/Lissajous_curve title='txau')
 
      x = A₀·sen( a₀·t + δ )
      y = A₁·sen( a₁·t     )
