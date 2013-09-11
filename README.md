@@ -1,25 +1,24 @@
 Lissajous
 =========
 
-Curvas de Lissajous
+Curvas de Lissajous &lt;http://en.wikipedia.org/wiki/Lissajous_curve&gt;
 
+    x = A₀·sen( a₀·t + δ )
+    y = A₁·sen( a₁·t     )
 
-     Uso: http://arkanon.github.io/Lissajous/?a=<a₀>,<a₁>&d=<δ>&i=<incr>
+&lt;http://www.openprocessing.org/sketch/39876&gt;  
+&lt;http://en.wikipedia.org/wiki/Spirograph&gt;
 
-     TESTES
+Uso
 
-        d=pi/2
+    http://arkanon.github.io/Lissajous/?a=<a₀>,<a₁>&d=<δ>&iₜ=<incr de t>
 
-        a=1,1 circulo      a=2,1 parabola     a=3,1             a=4,1 sigma        a=5,1
-        a=1,2 infinito     a=2,2 circulo      a=3,2             a=4,2 parabola     a=5,2
-        a=1,3              a=2,3 peixe        a=3,3 circulo     a=4,3              a=5,3
-        a=1,4              a=2,4 infinito     a=3,4             a=4,4 circulo      a=5,4
-        a=1,5              a=2,5              a=3,5             a=4,5              a=5,5 circulo
+TESTES
 
-     [oi](http://en.wikipedia.org/wiki/Lissajous_curve title='txau')
+    d=pi/2
 
-     x = A₀·sen( a₀·t + δ )
-     y = A₁·sen( a₁·t     )
-
-     [http://www.openprocessing.org/sketch/39876]
-     [http://en.wikipedia.org/wiki/Spirograph]
+    a=1,1 circulo      a=2,1 parabola     a=3,1             a=4,1 sigma        a=5,1
+    a=1,2 infinito     a=2,2 circulo      a=3,2             a=4,2 parabola     a=5,2
+    a=1,3              a=2,3 peixe        a=3,3 circulo     a=4,3              a=5,3
+    a=1,4              a=2,4 infinito     a=3,4             a=4,4 circulo      a=5,4
+    a=1,5              a=2,5              a=3,5             a=4,5              a=5,5 circulo
