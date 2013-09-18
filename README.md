@@ -8,7 +8,7 @@ Curvas de Lissajous &lt;http://en.wikipedia.org/wiki/Lissajous_curve&gt;
 
 Uso
 
-[http://arkanon.github.io/lissajous/](http://goo.gl/yJByyH)?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;
+> <samp>[http://arkanon.github.io/lissajous/](http://goo.gl/yJByyH)?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;</samp>
 
 TESTES
 
@@ -22,7 +22,7 @@ TESTES
 
 Referências
 
-&lt;http://en.wikipedia.org/wiki/Spirograph&gt;  
-&lt;http://pt.wikipedia.org/wiki/Pêndulo_de_Foucault&gt;  
-&lt;http://www.openprocessing.org/sketch/39876&gt;
+> &lt;http://en.wikipedia.org/wiki/Spirograph&gt;  
+> &lt;http://pt.wikipedia.org/wiki/Pêndulo_de_Foucault&gt;  
+> &lt;http://www.openprocessing.org/sketch/39876&gt;
 
