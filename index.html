@@ -76,25 +76,23 @@
              canvas = document.getElementById('canvas');
             context = canvas.getContext('2d');
 
-                  W = RB[0] - LT[0];
-                  H = LT[1] - RB[1];
+                  W = RB[0] - LT[0];        // width
+                  H = LT[1] - RB[1];        // height
 
-                 pr = H/W;
-
-               natH = natW*pr;
+                 pr = H/W;                  // proportion
+                 sc = W/natW;               // scale
+               natH = natW*pr;              // native height
 
               enatW = 1 + Math.round(natW); // effective native width
               enatH = 1 + Math.round(natH); // effective native height
 
-                 sc = W/natW;
+            natO[0] = Math.abs(LT[0]/sc);   // native origin x
+            natO[1] = Math.abs(LT[1]/sc);   // native origin y
 
-            natO[0] = Math.abs(LT[0]/sc);
-            natO[1] = Math.abs(LT[1]/sc);
+            dataset = context.getImageData(0, 0, enatW, enatH);
 
       canvas.width  = enatW;
       canvas.height = enatH;
-
-            dataset = context.getImageData(0, 0, enatW, enatH);
 
     }
 
@@ -104,7 +102,7 @@
     {
       x = A[0]*sen(a[0]*t+d);
       y = A[1]*sen(a[1]*t);
-      circ(x, y, 3, 'lime');
+      disk(x, y, 3, 'lime');
       tout2 = setTimeout
       (
         function()
@@ -122,21 +120,18 @@
 
     function dot(x, y, cor)
     {
-
       var col = Math.round( natO[0]+x/sc );
       var lin = Math.round( natO[1]-y/sc );
       var idx = ( lin * enatW + col )*4;
-
       dataset.data[idx+0] = cor[0];
       dataset.data[idx+1] = cor[1];
       dataset.data[idx+2] = cor[2];
       dataset.data[idx+3] = 255;
-
     }
 
 
 
-    function circ(cx, cy, raio, cor)
+    function disk(cx, cy, raio, cor)
     {
       var col = Math.round( natO[0]+cx/sc );
       var lin = Math.round( natO[1]-cy/sc );
