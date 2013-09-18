@@ -6,9 +6,9 @@ Curvas de Lissajous &lt;http://en.wikipedia.org/wiki/Lissajous_curve&gt;
     x = A₀·sen( a₀·t + δ )
     y = A₁·sen( a₁·t     )
 
-Uso  
+Uso
 
-    [http://arkanon.github.io/lissajous/](http://goo.gl/yJByyH)?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;
+[http://arkanon.github.io/lissajous/](http://goo.gl/yJByyH)?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;
 
 TESTES
 
