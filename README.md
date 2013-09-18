@@ -7,9 +7,11 @@ Curvas de Lissajous &lt;http://en.wikipedia.org/wiki/Lissajous_curve&gt;
     y = A₁·sen( a₁·t     )
 
 Uso  
-[http://arkanon.github.io/lissajous/](http://goo.gl/yJByyH)?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;
 
-TESTES  
+    [http://arkanon.github.io/lissajous/](http://goo.gl/yJByyH)?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;
+
+TESTES
+
     d=pi/2
 
     a=1,1 circulo      a=2,1 parabola     a=3,1             a=4,1 sigma        a=5,1
