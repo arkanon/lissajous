@@ -8,10 +8,9 @@ Curvas de Lissajous &lt;http://en.wikipedia.org/wiki/Lissajous_curve&gt;
 
 Uso
 
-    <a href="http://goo.gl/yJByyH">http://arkanon.github.io/lissajous/</a>?a=<a₀>,<a₁>&d=<δ>&iₜ=<incr de t>
+<a href="http://goo.gl/yJByyH">http://arkanon.github.io/lissajous/</a>?a=&lt;a₀&gt;,&lt;a₁&gt;&d=&lt;δ&gt;&iₜ=&lt;incr de t&gt;
 
 TESTES
-------
 
     d=pi/2
 
@@ -22,7 +21,6 @@ TESTES
     a=1,5              a=2,5              a=3,5             a=4,5              a=5,5 circulo
 
 Referências
------------
 
 &lt;http://en.wikipedia.org/wiki/Spirograph&gt;
 &lt;http://pt.wikipedia.org/wiki/Pêndulo_de_Foucault&gt;
